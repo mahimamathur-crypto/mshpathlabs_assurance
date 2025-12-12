@@ -70,6 +70,7 @@
                     @if (App\Models\Setting::find(1)->license_verify != 1)
                             @yield('content')
                             @yield('setting')
+                            
                     @else
                         <script>
                             var a = $('input[name=base_url]').val()+'/setting';

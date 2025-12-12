@@ -16,3 +16,4 @@ yarn-error.log
 license/includes/.lic
 public/images/upload
 public/report_prescription/report/*
+.env
